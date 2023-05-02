@@ -1,61 +1,147 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  font-size: 16px;
+}
+
 * {
-  font-family: "Comfortaa", cursive;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  box-sizing: border-box;
+.btn-arrow {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.btn-arrow img {
+  width: 14px;
+  margin-left: 32px;
 }
 
-nav {
-  padding: 24px 0 !important;
-}
-nav .logo img {
+nav img {
   width: 106px;
 }
-nav .navbar-nav a {
-  font-size: 16px;
+nav a.nav-link {
+  font-size: 1rem;
+  font-family: "Comfortaa";
   font-weight: 600;
-  margin-right: 40px;
   color: #ffffff;
 }
-nav .navbar-nav a:hover {
+nav a.nav-link:hover {
   color: #b6ac92;
 }
 
-#home {
+#hiro {
   background-color: #b6ac92;
-  box-sizing: border-box;
+}
+#hiro .box-type-1 img {
+  width: 321px;
+  height: 329px;
+}
+#hiro .box-type-2 img {
+  width: 477px;
+  height: 658px;
+}
+#hiro .box-type-3 img {
+  width: 643px;
+  height: 429px;
 }
 
-#home .banner-hero {
-  box-sizing: border-box;
-  display: flex;
-  box-sizing: border-box;
+#differently {
+  background-color: #000000;
 }
-
-#home .box-cover {
+#differently .text-content {
+  width: 523px;
+}
+#differently .text-content h1 {
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 700;
+}
+#differently .text-content p {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 500;
+}
+#differently .card {
+  width: 353px;
+  height: 322px;
+  background-color: #212222;
+}
+#differently .card .card-body {
   display: flex;
+  text-align: center;
   flex-direction: column;
-  box-sizing: border-box;
+  justify-content: center;
+}
+#differently .card .card-body h2 {
+  color: #b6ac92;
+}
+#differently .card .card-body p {
+  color: #ffffff;
+}
+#differently .card-custom-1 {
+  width: 353px;
+  height: 102px;
+  background-color: #ffffff;
+}
+#differently .card-custom-2 {
+  width: 353px;
+  height: 185px;
+  background-color: #ffffff;
 }
 
-#home .box-cover_2 {
-  display: flex;
-  flex-direction: row;
+#logos {
+  background-color: #000000;
 }
-
-.box {
-  width: 421px;
-  box-sizing: border-box;
+#logos .scroll-bar {
+  padding: 54px 0;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  overflow-x: auto;
 }
-
-.box img {
+#logos .scroll-bar .item-logo {
+  width: 64;
+  margin-right: 80px;
+}
+#logos .scroll-bar .item-logo img {
   width: 100%;
-  height: auto;
+}
+#logos .scroll-bar::-webkit-scrollbar {
+  width: 0;
+}
+
+#talent {
+  background-color: #000000;
+}
+#talent .text-content {
+  width: 629px;
+}
+#talent .text-content h2 {
+  color: #b6ac92;
+}
+#talent .text-content p {
+  color: #ffffff;
+  opacity: 60%;
+}
+#talent .card {
+  background-color: #0b0b0b;
+}
+#talent .card .text-content {
+  bottom: 35%;
+  background-color: #b6ac92;
+}
+#talent .card .card-body {
+  color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+  nav a.nav-link {
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
